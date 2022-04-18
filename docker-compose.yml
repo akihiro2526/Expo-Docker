@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  dev:
+    build:
+      context: .
+      args:
+        - USERNAME=${USERNAME:-user}
+        - NODE_VERSION=${NODE_VERSION:---lts}
+        - YARN_VERSION=${YARN_VERSION:-latest}
+        - EXPO_VERSION=${EXPO_VERSION:-}
+        - REACT_NATIVE_PACKAGER_HOSTNAME=${LOCAL_IP_ADDR}
+    restart: always
+    ports:
+      - ${SSH_PORT:-8022}:22
+      - "19000:19000"
+      - "19001:19001"
+      - "19002:19002"
+      - "19006:19006"
+    tty: true
+    stdin_open: true
