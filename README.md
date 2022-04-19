@@ -4,8 +4,8 @@ Expo 実行環境
 
 ## Feature
 
+- Expo 実行環境
 - SSH 接続時のパスワード入力不要
-- Expo 開発環境
 
 ## Usage
 
@@ -43,8 +43,10 @@ LOCAL_IP_ADDR=
 make docker
 ```
 
+## Distribution
+Ubuntu 20.04
+
 ## Package
-- Ubuntu 20.04
 - zip
 - curl
 - dpkg
