@@ -1,6 +1,6 @@
 # Expo Docker
 
-Expo 開発環境
+Expo 実行環境
 
 ## Feature
 
