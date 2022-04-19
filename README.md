@@ -9,6 +9,8 @@ Expo 開発環境
 
 ## Usage
 
+
+
 1.環境変数を設定
 
 ```
@@ -27,7 +29,7 @@ YARN_VERSION=
 # expo-cli version [default - Latest version]
 EXPO_VERSION=
 
-# private IP address [automatically generated]
+# private IP address [Automatically generated]
 LOCAL_IP_ADDR=
 ```
 
